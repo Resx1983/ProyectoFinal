@@ -17,6 +17,7 @@ nav ul li{
     list-style: none;
     margin: 10px;
     opacity: 95%;
+    line-height: 30px;
 }
 
 .clearfix{
@@ -61,3 +62,25 @@ h2{
 h3{
     color: white;
 }
+
+.button-link {
+    display: inline-block;
+    padding: 1px 2px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button-link:hover {
+    background-color: #ddd;
+  }
+  
+  .button-link img {
+    vertical-align: middle;
+    margin-right: 1px;
+  }
