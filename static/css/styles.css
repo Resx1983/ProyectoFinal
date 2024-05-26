@@ -16,6 +16,7 @@ nav ul li{
     float: left;
     list-style: none;
     margin: 10px;
+    opacity: 95%;
 }
 
 .clearfix{
@@ -23,20 +24,26 @@ nav ul li{
 }
 
 nav{
-    background-color: rgb(47, 46, 46);
+    background-color: rgb(31, 30, 30);
     height: 50px;
     border: 2px solid black;
+    opacity: 95%;
 }
 
 #content{
     background-color:  rgb(31, 30, 30);
     float: left;
     width: 80%;
+    opacity: 95%;
+    border: 1px solid black;
 }
 
 aside{
     width: 20%;
-    float: left
+    float: left;
+    background-color: rgb(25, 21, 21);
+    opacity: 90%;
+    border: 1px solid black;
 }
 
 p{
@@ -48,5 +55,9 @@ h1{
 }
 
 h2{
+    color: white;
+}
+
+h3{
     color: white;
 }
