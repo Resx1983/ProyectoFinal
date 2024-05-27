@@ -7,6 +7,9 @@ hablando sobre Rimworld, su comunidad y su contenido. La finalidad de este proye
 Para instalar este proyecto, deberás seguir los siguientes pasos:
 1. Descargar el archivo de este repositorio
 2. Descomprimir el archivo Zip
+3. Ejecutar el programa con visual studio o similar
+4. Tener instalado Python
+5. Crear un entorno virtual
 
 ## Tecnologías utilizadas
 
