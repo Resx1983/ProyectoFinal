@@ -40,5 +40,9 @@ def comunidad():
     
     return render_template("comunidad.html", comments=insert_comment())
 
+@app.route("/dlcs")
+def DLCs():
+    return render_template("dlcs.html", comments=insert_comment())
+
 if __name__ == "__main__":
     app.run(debug=True)

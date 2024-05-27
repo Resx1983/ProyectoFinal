@@ -27,7 +27,7 @@
             <a href="{{ url_for('comunidad')}}">Comunidad</a>
           </li>
           <li>
-            <a href="#">Acerca de</a>
+            <a href="{{ url_for('DLCs')}}">DLC's</a>
           </li>
         </ul>
       </nav>
@@ -38,8 +38,18 @@
       {% endblock %}
 
       <aside>
-        <h3>Acerca de mí 😎</h3>
+        <h3>Acerca del juego</h3>
+        <p>Plataforma: PC</p>
+        <p>Género: Estrategia</p>
+        <p>Creador: <a href="https://x.com/tynansylvester">Tynan Silvester</a></p>
+        <p>Estudio: <a href="https://ludeon.com/blog/">Ludeon Studios</a></p>
+        <p>¿Te ha interesado el juego? puedes encontrarlo <a href="https://store.steampowered.com/app/294100/RimWorld/">Aquí!</a></p>
+      </aside>
+      
+      <aside>
+        <h3>Acerca de mí 👀</h3>
         <a class="button-link" href="https://github.com/Resx1983?tab=repositories"><img src="https://cdn.pixabay.com/photo/2022/01/30/13/33/github-6980894_1280.png" alt="" width="40" height="34"></a>
+        <a class="button-link" href="https://www.facebook.com/jerson.moncadaforonda/"><img src="https://cdn.iconscout.com/icon/premium/png-256-thumb/facebook-2752192-2285009.png" alt="" width="40" height="34"></a>
       </aside>
 
       <div class="clearfix"></div>
@@ -53,11 +63,11 @@
             <input type="text" id="name" name="name" required><br>
             <label for="comment">Comentario:</label>
             <input type="text" id="comment" name="comment" required><br>
-            <button type="submit">Comentar</button>
+            <button type="submit" class="btn-danger">Comentar</button>
           </form>
           
           
-          <div>{% for comment in comments %}
+          <div class="comentarios">{% for comment in comments %}
             <li>{{ comment.name }}: {{ comment.comment }}</li>
           {% endfor %}
           </div>

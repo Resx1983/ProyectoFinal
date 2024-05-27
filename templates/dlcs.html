@@ -1,0 +1,191 @@
+{% extends "base.html" %}
+
+{% block title %} Rimworld - Dlcs {% endblock %}
+
+{% block content%}
+<section id="content">
+    <article class="article">
+      <h1>Rimworld - Ideology</h1>
+      <img class="imgsize" src="https://cdn-ext.fanatical.com/production/product/1280x720/89daa0d5-487b-4043-9986-94fd2778a10e.jpeg">
+      <p>Este DLC nos sumergirá en todo un mundo basado en religiones e ideologías. Podrás crear tu propia ideoligión 
+        con varios tipos de roles, modificar sus dioses, preceptos y leyes, estilos basados en religiones reales, 
+      </p>
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="{{ url_for('static', filename='ideology_styles.png') }}" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Estructura</h5>
+              <p>Aquí elegirás bases de tu religión teniendo en cuenta sistemas ideológicos reales.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="{{ url_for('static', filename='ideology_memes.PNG') }}" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Memes</h5>
+              <p>Las orientaciones base de tu ideología.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="{{ url_for('static', filename='ideology_structure.png') }}" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Personalización</h5>
+              <p>Donde elegirás el símbolo, dioses, historia y estilos gráficos de estructuras de tu religión.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="{{ url_for('static', filename='ideology_precepts.png') }}" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Preceptos</h5>
+              <p>Dónde eliges leyes y opiniones sobre cada cosa según tu religión.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    
+    </article>
+    <article>
+      <h1 id="up">Royalty</h1>
+      <img class="imgsize" src="https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1149640/capsule_616x353.jpg?t=1676391387">
+      <p class="parrafo">Los colonos pueden completar misiones para ganar honor del Imperio. El honor otorga títulos imperiales como
+         Caballero o Barón. Construye grandes salas del trono para tus nobles al ascender. Vísteles con ropa elegante
+          para un monarca, o armaduras prestigiosas para un gran guerrero. Los colonos darán discursos desde el trono,
+           inspirando a tus colonos, además de tocar el piano, el arpa o el clavecín. También, a través de este DLC, 
+        tus colonos podrán ser merecedores (por medio de títulos o meditación) de poderes psíquicos</p>
+    </article>
+    
+    <article>
+        <h1 id="up">Biotech</h1>
+        <img class="imgsize" src="https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1826140/capsule_616x353.jpg?t=1712946035">
+        <p class="parrafo">En mi opinión, el mejor DLC del juego. Este nos trae la posibilidad de formar una familia con hijos,
+            la posibilidad de brindarles cobijo y un aprendizaje para que, en el futuro, sean colonos más formados y útiles. 
+            Este DLC también nos trae una increíble cantidad de variedades genéticas, las cuales podremos modificar e insertar
+            en un colono para cambiar sus rasgos y habilidades.
+        </p>
+        <p class="parrafo">De entre los diferentes xenotipos agregados, podremos encontrar:</p>
+        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4" aria-label="Slide 5"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="5" aria-label="Slide 6"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="6" aria-label="Slide 7"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="7" aria-label="Slide 8"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="8" aria-label="Slide 9"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="10000">
+                <img src="https://oyster.ignimgs.com/mediawiki/apis.ign.com/rimworld/9/94/Pigskins.jpg?width=1024" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h3>Pielcerdil</h3>
+                  <p>Híbridos humano cerdo. Sus muy resistentes y pueden comer casi cualquier cosa, todo a costa de una 
+                    limitada manipulación
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="https://oyster.ignimgs.com/mediawiki/apis.ign.com/rimworld/e/ea/Impids.jpg?width=1024" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h3>Diablinos</h3>
+                  <p>Un xenotipo hecho para la vida a altas temperaturas. Los diablinos son tolerantes a temperaturas altas, 
+                    son rápidos y escupen fuego
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="https://oyster.ignimgs.com/mediawiki/apis.ign.com/rimworld/f/f3/Yttakin.jpg?width=1024" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h3>Ytakkin</h3>
+                  <p>Creados para climas helados. Su basto pelaje los protege de temperaturas bajas, también poseen la 
+                    habilidad de comunicarse verbal y psíquicamente con animales
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="https://oyster.ignimgs.com/mediawiki/apis.ign.com/rimworld/0/06/Neanderthals.jpg?width=1024" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h3>Neandertales</h3>
+                  <p>Humanoides fornidos y de complexión fuerte. Agresivos, resistentes a daños y enfermedades; todo a costa 
+                    de una baja inteligencia
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="https://oyster.ignimgs.com/mediawiki/apis.ign.com/rimworld/c/c0/Dirtmoles.jpg?width=1024" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h3>Topoterrarios</h3>
+                  <p>Creados para vivir en lugares subterráneos. Son sensibles a la luz y al exterior, pero en cambio 
+                    obtendrás poderosos mineros capaces de ver en la oscuridad
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="https://oyster.ignimgs.com/mediawiki/apis.ign.com/rimworld/a/a7/Genies.jpg?width=1024" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h3>Eruditos</h3>
+                  <p>Genéticamente modificados para ser increíblemente hábiles en trabajos investigativos, científicos 
+                    y de maquinado, pero no para el combate</p>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="https://oyster.ignimgs.com/mediawiki/apis.ign.com/rimworld/e/ec/Hussars.jpg?width=1024" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h3>Hussars</h3>
+                  <p>Un xenotipo creado para la guerra. Los Hussars poseen genes que mejoran todas sus habilidades físicas 
+                    y de combate
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="https://oyster.ignimgs.com/mediawiki/apis.ign.com/rimworld/6/6d/Highmates.jpg?width=1024" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h3>Altocompañantes</h3>
+                  <p>Un xenotipo creado para hacer de compañía. Los Altocompañantes son increíbles compañeros sociales y 
+                    sentimentales
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="https://oyster.ignimgs.com/mediawiki/apis.ign.com/rimworld/4/45/Wasters.jpg?width=1024" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h3>Escoriales</h3>
+                  <p>Creados para sobrevivir en entornos contaminados o tóxicos</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </article>
+
+    <article>
+        <h1 id="up">Anomaly</h1>
+        <img class="imgsize" src="https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2380740/capsule_616x353.jpg?t=1713231545">
+        <p class="parrafo">El último y más turbio de los DLCs. El vacío ha llegado con incontables anomalías que tendrás que 
+            combatir. Podrás capturarlas y estudiarlas, y así quizás lograr usar el vacío a tu favor.
+        </p>
+    </article>
+  </section>
+{% endblock %}
